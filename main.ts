@@ -17,6 +17,7 @@ basic.showLeds(`
     # # . . #
     . # # # .
     `)
+basic.showIcon(IconNames.Heart)
 basic.forever(function () {
     let myVar = 0
     basic.showLeds(`
